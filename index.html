@@ -614,45 +614,26 @@
 	  </div>
 	  <button type="submit" href="/">Submit</button>
 	</form> --> -->
-	<h2>Contact Me</h2>
-						
-						<div class="row">
-							<div class="col-6 col-12-small">
-								<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-									<fieldset id="fs-frm-inputs">
-									  <label for="full-name">Full Name</label>
-									  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-									  <label for="email-address">Email Address</label>
-									  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-									  <label for="message">Message</label>
-									  <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-									  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-									</fieldset>
-									<input type="submit" value="Submit">
-								  </form>
-								
-								
-							</div>
-							<div class=" col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										545 Watercress dr,<br />
-										Woodstock, GA 30188<br />
-										United States
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										678-933-1892
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">masonsmith976@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+	<h2 class="major">Contact Me </h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
   </div>
 		<!-- /CONTACT -->
 
