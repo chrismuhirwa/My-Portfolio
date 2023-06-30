@@ -2592,4 +2592,9 @@ h6 { font-size: 16px; }
 	.orido_tm_modalbox .description_wrap:before{height: 20px;}
 	.orido_tm_modalbox .description_wrap:after{height: 20px;}
 }
-
+.github{
+	color: blue;
+}
+.linkedin{
+	color: blue;
+}
